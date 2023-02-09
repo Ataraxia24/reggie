@@ -1,0 +1,15 @@
+//配置端口
+
+//配置mysql
+//配置redis
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: assign_id
+
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+
+//设置图片路径共上传
